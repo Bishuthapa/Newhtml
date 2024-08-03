@@ -1,0 +1,271 @@
+h1{
+    /*background-color: RGB(0,70,90);*/
+    color:rgba(6, 5, 6, 0.533);
+    Line-height:1.6em;
+    font-family:Raleway;
+    font-size: bold;
+    font-weight:bold;
+
+}
+.nav{
+    text-align: center;
+}
+.homepage,.buttons,.contact,.blog,.careers,.store,.YouTube1{
+    display:inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.homepage,.store,.careers,.contact,.buttons,.blog,.YouTube1{
+    font-size: 150%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:rgb(226, 142, 33);
+    margin-bottom: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 1s;
+}
+.scrol{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:rgb(226, 142, 33);
+    margin-bottom: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 1s;
+    border-top:30px;
+    background-color: black;
+}
+
+
+.homepage:hover,.store:hover,.careers:hover,.contact:hover,.buttons:hover,.blog:hover,.YouTube1:hover{
+    color:red;
+}
+.homepage:active,.store:active,.careers:active,.contact:active,.buttons:active,.blog:active,.YouTube:active{
+    color:violet;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(33, 21, 21);
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color:green;
+}
+a:visited{
+    color: rgb(25, 113, 212);
+}
+.subscribe-button{
+    font-size:30px;
+    background-color: rgb(216, 63, 63);
+    color:white;
+    border-color: rgb(216, 63, 63);
+    border-radius:50px;
+    cursor: pointer;
+    border-style:solid;
+    transition: opacity 0.15s;
+    }
+    .subscribe-button:hover{
+        opacity: 0.7;
+    }
+    .subscribe-button:active{
+        opacity: 0.5;
+        
+    }
+    
+    .next-button{
+        margin-left: 76%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(11, 11, 11);
+    border-radius: 40px;
+    color:white;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    cursor:pointer;
+    transition: background-color 1s,
+    color 1s;
+    border:solid;
+    }
+    .next-button:hover{
+        background-color: rgb(71, 69, 69);
+        color:#77ba35
+    }
+    .next-button:active{
+        color:green;
+    }
+.join-button{
+    border-color:rgb(25, 113, 212);
+    background-color: white;
+    color:rgb(25, 113, 212);
+    cursor: pointer;
+    border-style:solid;
+    border-width: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 1px;
+    font-size:30px;
+    padding-right: 10px;
+    padding-left:10px;
+    transition: background-color 1s,
+    color 1s;
+
+
+}
+
+.join-button:hover{
+    background-color: rgb(25, 113, 212);
+    color:white;
+}
+.join-button:active{
+    opacity:0.6;
+}
+.tweet-button{
+    color:white;
+    background-color:rgb(55, 135, 226);
+    border-color:rgb(55, 135, 226);
+    border-style:solid;
+    border-radius:40px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    padding-right:10px;
+    padding-left:10px;
+    cursor: pointer;
+    vertical-align:top;
+
+
+}
+.tweet-button:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+
+.back{
+    margin-left: 76%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(11, 11, 11);
+    border-radius: 40px;
+    color:white;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    cursor:pointer;
+    transition: background-color 1s,
+    color 1s;
+    border:solid;
+
+
+} 
+.back:hover{
+    background-color:white ;
+    color:black;
+}
+   p{
+    text-align:center;
+
+   }
+   button{
+    text-align:center;
+   }
+.new{
+    font-size:25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:rgb(226, 142, 33);
+    margin-bottom: 10px;
+    margin-top: 20px;
+    }
+.Mac{
+    font-size:40px;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.super{
+    font-size:80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pay{
+    font-size:25px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    
+}
+.cash{
+    margin-left: 46%;   
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:30px;
+    background-color: rgb(11, 112, 235);
+    border-radius: 40px;
+    color:white;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    border-color:rgb(11, 112, 235);
+    border: none;
+    cursor: pointer;
+    
+
+
+}
+.body{
+    background-color: black;
+    height: 3000px;
+}
+
+
+.banner{
+    width: 85%;
+    height: 50%;
+    object-fit:cover;
+    margin: top 1px;
+    margin-left:45px;
+    margin: right 20px;
+    border-radius: 20px;
+
+
+}
+.search-button{
+    size:20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+.flex-container{
+    background-color: blue;
+    margin-left:20px;
+    text-align: center;
+    
+
+}
+
+.searchtool{
+    height:18px;
+    background-color: white;
+    
+}
+.table{
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+}

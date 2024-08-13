@@ -115,3 +115,17 @@ div.container p{
     color:black;
     border-color:neonblue;
 }
+.backbutton{
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkcyan;
+    margin: 10px;
+    margin-bottom: 50px;
+    margin-right: 50px;             
+}
+.text42{
+    font-family: "Paris 2024 bold", "Olympic Headline", Helvetica, sans-serif;
+    
+    font-size: 900;

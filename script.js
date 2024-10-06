@@ -1,5 +1,1 @@
-getname();
-
-function getname(){
-    console.log("bibit");
-}
+console.log("I studying javascript");
